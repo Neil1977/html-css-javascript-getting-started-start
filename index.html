@@ -3,31 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site.css" type="text/css" />
     <title>Document</title>
 </head>
 <body>
-  <h1>HTML Elements</h1>
-  <p>Each element has a purpose.</p>
-  <a href="http://pluralsight.com">Learn more at Pluralsight</a>
-  <table>
-    <thead>
-        <tr>
-            <th>Author</th>
-            <th>Title</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Craig Shoemaker</td>
-            <td>
-                Building Websites with HTML, CSS, and JavaScript: Getting Started
-            </td>
-        </tr>
-        <tr>
-            <td>John Papa</td>
-            <td>Vue: Getting Started</td>
-        </tr>
-    </tbody>
-  </table>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="pies.html">Pies</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside><img src="images/logo.png" alt="Bethany's Pie Shop"></aside>
+        <article>
+            <h1>Welcome to Bethany's Pie Shop</h1>
+            <p class="sub-title">
+                From pecan to plum, our pies are made in with the warmth and tradition of home.
+                Take a moment to
+                <a href="pies.html">browse our pies</a>
+                and see which of our delectable
+                deserts are soon to arrive on your doorstep.
+            </p>
+            <img src="images/banner.png" class="banner" alt="Bethany's Pie Shop">
+        </article>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="pies.html">Pies</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
