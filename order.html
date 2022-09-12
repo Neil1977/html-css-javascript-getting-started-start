@@ -191,7 +191,7 @@
         window.navigator.geolocation.getCurrentPosition(
             function(position) {
                 location = {
-                    latittude: position.coords.latitude,
+                    latitude: position.coords.latitude,
                     longitude: position.coords.longitude
                 };
                 locationBox.value = JSON.stringify(location);
